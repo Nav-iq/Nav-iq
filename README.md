@@ -1,4 +1,8 @@
-## Hi there 👋
+<h1 align="center">
+  <a href="https://github.com/Nav-iq">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!,+I'm+Nav-iq&center=true&size=30">
+  </a>
+</h1>
 
 ### 🏆 My GitHub Trophies
 
