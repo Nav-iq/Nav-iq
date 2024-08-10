@@ -6,6 +6,4 @@
 
 ## 📈 My LeetCode Progress
 
-![LeetCode Progress](./images/leetcode_progress.png)
-
-![](https://leetcard.jacoblin.cool/Nav-iq?ext=heatmap)
+![](https://leetcard.jacoblin.cool/NaveedIqbal?ext=heatmap)
