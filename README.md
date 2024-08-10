@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/Nav-iq">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!,+I'm+Nav-iq&center=true&size=30">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!,+I'm+Naveed&center=true&size=30">
   </a>
 </h1>
 
@@ -14,8 +14,11 @@
 
 ## 📊 My GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=Nav-iq&show_icons=true&theme=onedark)
-
-## 📈 My Top Languages
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Nav-iq&layout=compact&theme=onedark)
+<div style="display: flex; justify-content: space-around;">
+  <a href="https://github.com/Nav-iq">
+    <img src="https://github-readme-stats.vercel.app/api?username=Nav-iq&show_icons=true&theme=onedark" alt="Nav-iq's Github Stats" />
+  </a>
+  <a href="https://github.com/Nav-iq">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nav-iq&layout=compact&theme=onedark" alt="Nav-iq's Top Languages" />
+  </a>
+</div>
