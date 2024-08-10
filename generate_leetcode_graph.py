@@ -18,7 +18,7 @@ def generate_graph(data):
     if data is None:
         print("No data to generate graph.")
         return
-    
+
     # Ensure the images directory exists
     if not os.path.exists('images'):
         os.makedirs('images')
@@ -32,7 +32,7 @@ def generate_graph(data):
     plt.xlabel('Day')
     plt.ylabel('Problems Solved')
     plt.grid(True)
-    plt.savefig('images/leetcode_progress.png')
+    plt.savefig('leetcode_progress.png')
     plt.close()
 
 # Replace with your LeetCode username
