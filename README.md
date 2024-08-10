@@ -11,7 +11,7 @@
 ## 📈 My LeetCode Progress
 
 <div style="display: flex; justify-content: center;">
-  <a href="https://leetcode.com/NaveedIqbal">
+  <a href="https://leetcode.com/NaveedIqbal" target="_blank">
     <img src="https://leetcard.jacoblin.cool/NaveedIqbal?ext=heatmap&theme=nord" alt="LeetCode Stats" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);"/>
   </a>
 </div>
@@ -22,7 +22,7 @@
   <a href="https://github.com/Nav-iq" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api?username=Nav-iq&show_icons=true&theme=onedark" alt="Nav-iq's Github Stats" />
   </a>
-  <a href="https://github.com/Nav-iq">
+  <a href="https://github.com/Nav-iq" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nav-iq&layout=compact&theme=onedark" alt="Nav-iq's Top Languages" />
   </a>
 </div>
