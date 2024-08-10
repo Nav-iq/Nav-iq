@@ -4,4 +4,4 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=Nav-iq&theme=onedark)]
 
 ### 📊 LeetCode Stats
-![LeetCode Stats](https://leetcode-stats-card.vercel.app/api?username=NaveedIqbal)
+![LeetCode Stats](https://leetcode-stats-card.vercel.app/api?username=Naveed)
