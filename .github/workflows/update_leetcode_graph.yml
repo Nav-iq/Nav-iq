@@ -1,14 +1,12 @@
-name: LeetCode Stats
+name: Generate LeetCode Progress Graph
 
 on:
-  push:
-    branches:
-      - main  # or your default branch
   schedule:
     - cron: '0 0 * * 1'  # Runs every Monday at midnight UTC
+  workflow_dispatch:  # Allows you to manually trigger the workflow
 
 jobs:
-  build:
+  generate-graph:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,19 +16,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.9'  # Specify the Python version you need
+          python-version: '3.9'  # Specify the Python version
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests matplotlib
 
-      - name: Run script
+      - name: Run Python script
         run: |
           python generate_leetcode_graph.py 
 
-      - name: Upload LeetCode Progress Graph
-        uses: actions/upload-artifact@v3
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
         with:
-          name: leetcode-progress
-          path: leetcode_progress.png
+          author_name: 'github-actions'
+          author_email: 'github-actions@github.com'
+          message: 'Update LeetCode progress graph'
+          add: 'images/leetcode_progress.png'
