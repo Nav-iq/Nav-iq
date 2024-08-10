@@ -31,6 +31,6 @@ def generate_graph(data):
     plt.show()  # Optionally display the plot
 
 # Replace with your LeetCode username
-username = "Naveed"
+username = "NaveedIqbal"
 data = fetch_leetcode_stats(username)
 generate_graph(data)
