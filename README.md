@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/Nav-iq">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!,+I'm+Naveed&center=true&size=30">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!,+Happy+Coding&center=true&size=30">
   </a>
 </h1>
 
