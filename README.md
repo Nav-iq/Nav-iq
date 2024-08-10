@@ -8,4 +8,4 @@
 
 ![LeetCode Progress](./images/leetcode_progress.png)
 
-![](https://leetcard.jacoblin.cool/lapor?ext=heatmap)
+![](https://leetcard.jacoblin.cool/Nav-iq?ext=heatmap)
