@@ -12,26 +12,9 @@
 
 <div style="display: flex; justify-content: center;">
   <a href="https://leetcode.com/NaveedIqbal">
-    <img src="https://leetcard.jacoblin.cool/NaveedIqbal?ext=heatmap&theme=onedark" alt="LeetCode Stats" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); animation: pulse 1.5s infinite;"/>
+    <img src="https://leetcard.jacoblin.cool/NaveedIqbal?ext=heatmap&theme=nord" alt="LeetCode Stats" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);"/>
   </a>
 </div>
-
-@keyframes pulse {
-0% {
-transform: scale(1);
-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
-}
-
-70% {
-transform: scale(1.1);
-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
-}
-
-100% {
-transform: scale(1);
-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-}
-}
 
 ## 📊 My GitHub Stats
 
