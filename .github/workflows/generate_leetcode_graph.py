@@ -1,3 +1,4 @@
+import os
 import requests
 import matplotlib.pyplot as plt
 
@@ -6,7 +7,7 @@ def fetch_leetcode_stats(username):
     url = f"https://leetcode-stats-api.herokuapp.com/{username}"
     try:
         response = requests.get(url)
-        response.raise_for_status()
+        response.raise_for_status()  # Check for HTTP errors
         return response.json()
     except requests.RequestException as e:
         print(f"Error fetching data: {e}")
@@ -18,6 +19,10 @@ def generate_graph(data):
         print("No data to generate graph.")
         return
     
+    # Ensure the images directory exists
+    if not os.path.exists('images'):
+        os.makedirs('images')
+
     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     problems_solved = data.get('recent_problems_solved', [0]*7)
 
@@ -27,8 +32,8 @@ def generate_graph(data):
     plt.xlabel('Day')
     plt.ylabel('Problems Solved')
     plt.grid(True)
-    plt.savefig('images/leetcode_progress.png')  # Save to images directory
-    plt.close()  # Close the plot to free memory
+    plt.savefig('images/leetcode_progress.png')
+    plt.close()
 
 # Replace with your LeetCode username
 username = "NaveedIqbal"
