@@ -18,8 +18,8 @@
 
 ## 📊 My GitHub Stats
 
-<div style="display: flex; justify-content: space-around;">
-  <a href="https://github.com/Nav-iq">
+<div style="display: flex; justify-content: space-around; gap: 6px">
+  <a href="https://github.com/Nav-iq" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api?username=Nav-iq&show_icons=true&theme=onedark" alt="Nav-iq's Github Stats" />
   </a>
   <a href="https://github.com/Nav-iq">
