@@ -1,0 +1,35 @@
+name: Update LeetCode Graph
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Use the Python version you need
+
+      - name: Install Dependencies
+        run: |
+          pip install matplotlib requests  # Install any required Python packages
+
+      - name: Generate LeetCode Graph
+        run: |
+          python generate_leetcode_graph.py  # This is the script you created
+
+      - name: Update README with New Graph
+        run: |
+          mv leetcode_progress.png ./images/leetcode_progress.png  # Move the graph to a designated folder
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./images/leetcode_progress.png
+          git commit -m "Update LeetCode progress graph"
+          git push
