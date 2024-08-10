@@ -6,7 +6,7 @@ def fetch_leetcode_stats(username):
     url = f"https://leetcode-stats-api.herokuapp.com/{username}"
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Raise an exception for HTTP errors
+        response.raise_for_status()
         return response.json()
     except requests.RequestException as e:
         print(f"Error fetching data: {e}")
@@ -19,7 +19,7 @@ def generate_graph(data):
         return
     
     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-    problems_solved = data.get('recent_problems_solved', [0]*7)  # Default to 0 if key is missing
+    problems_solved = data.get('recent_problems_solved', [0]*7)
 
     plt.figure(figsize=(10, 5))
     plt.plot(days, problems_solved, marker='o')
@@ -27,8 +27,8 @@ def generate_graph(data):
     plt.xlabel('Day')
     plt.ylabel('Problems Solved')
     plt.grid(True)
-    plt.savefig('leetcode_progress.png')
-    plt.show()  # Optionally display the plot
+    plt.savefig('images/leetcode_progress.png')  # Save to images directory
+    plt.close()  # Close the plot to free memory
 
 # Replace with your LeetCode username
 username = "NaveedIqbal"
