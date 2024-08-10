@@ -6,4 +6,4 @@
 
 ## 📈 My LeetCode Progress
 
-![](https://leetcard.jacoblin.cool/NaveedIqbal?ext=heatmap)
+[![Leetcode Stats](https://leetcard.jacoblin.cool/NaveedIqbal?ext=heatmap)](https://leetcode.com/NaveedIqbal)
