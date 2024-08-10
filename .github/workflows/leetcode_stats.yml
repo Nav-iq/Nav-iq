@@ -12,6 +12,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Replace '3.x' with the specific version you need
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt  # Only if you have dependencies listed in a requirements.txt file
+
       - name: Update LeetCode Stats
         run: |
           python fetch_leetcode_stats.py > README.md
