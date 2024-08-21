@@ -18,15 +18,6 @@
 
 ## 📊 My GitHub Stats
 
-<a href="https://gitroll.io/profile/uLfTHQ426idPKEBt4rSpjXMrcrSF3" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/uLfTHQ426idPKEBt4rSpjXMrcrSF3" alt="GitRoll Profile Badge"/></a>
-
-<div>
-    <a href="#"><img alt="Naveed Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nav-iq&langs_count=10&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=F0DB4F&icon_color=F0DB4F" height="200px" /></a>
-    <br>
-    <a href="#"><img alt="Naveed Github Stats" src="https://github-readme-stats.vercel.app/api?username=Nav-iq&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117&title_color=F0DB4F&icon_color=F0DB4F" height="200px" /></a>
-    <br>
-</div>
-
 <div style="display: flex; width: 100%; justify-content: space-evenly;">
   <a href="https://github.com/Nav-iq" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api?username=Nav-iq&show_icons=true&theme=onedark" alt="Nav-iq's Github Stats" />
