@@ -1,30 +1,37 @@
-<h1 align="center">
-  <a href="https://github.com/Nav-iq">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hey+there!,+Happy+Coding&center=true&size=26">
-  </a>
-</h1>
+# Naveed
 
-## 📈 My LeetCode Progress
+**Senior Software Engineer**
 
-<div style="display: flex; justify-content: center;">
-  <a href="https://leetcode.com/NaveedIqbal" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/NaveedIqbal?ext=heatmap&theme=nord" alt="LeetCode Stats" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);"/>
-  </a>
-</div>
+I design and ship production software end to end — Rust services, real-time infrastructure, Next.js frontends, and Flutter apps. Most of my work sits where systems engineering meets product: software that has to be fast, correct, and genuinely good to use.
 
-## 📊 My GitHub Stats
+Recent focus: real-time collaboration systems, end-to-end encrypted messaging, multi-agent architectures, and applied AI.
 
-<div>
-    <a href="#"><img alt="Naveed Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nav-iq&langs_count=10&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=F0DB4F&icon_color=F0DB4F" height="200px" /></a>
-</div>
+## Selected work
 
-<!--
-<div style="display: flex; width: 100%; justify-content: space-evenly;">
-  <a href="https://github.com/Nav-iq" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api?username=Nav-iq&show_icons=true&theme=onedark" alt="Nav-iq's Github Stats" />
-  </a>
-  <a href="https://github.com/Nav-iq" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nav-iq&layout=compact&theme=onedark" alt="Nav-iq's Top Languages" />
-  </a>
-</div>
--->
+**Chappy** — AI companion with real-time voice conversation, persistent memory, and 3D avatars.
+Low-latency voice pipeline. Rust and TypeScript.
+
+**[MorseSpeak](https://morsespeak.com)** — Morse code translator with a bespoke design system and Web Audio API synthesis.
+Next.js 15 · TypeScript
+
+**[StudioPro](https://studiopro.cc)** — AI video generation platform.
+Next.js · Supabase
+
+**Transformer from scratch** — Tokenizer, attention, RoPE, GQA, and SwiGLU implemented from first principles, served behind a FastAPI inference server.
+Python · PyTorch
+
+## Technical focus
+
+| | |
+|---|---|
+| **Languages** | Rust · TypeScript · Python · Dart · SQL |
+| **Backend** | Tokio · Node.js · PostgreSQL · Supabase |
+| **Frontend & mobile** | Next.js · React · Flutter |
+| **Infrastructure** | Docker · GitHub Actions · CI/CD to client-owned infrastructure |
+| **AI** | LLM application architecture · real-time voice pipelines · multi-agent systems |
+
+## Contact
+
+Open to select contract work.
+
+[Website](https://naveed.vercel.app) · [LinkedIn](https://www.linkedin.com/in/naveediqbal55) · [Email](mailto:support@studiopro.cc)
